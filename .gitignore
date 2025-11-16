@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+
+# FastF1 cache
+backend/fastf1_cache/
+*.ff1pkl
+*.sqlite
+
+# ML model files (too large for Git)
+backend/lap_predictor.pkl
+
+# Environment
+.env
+.env.*
